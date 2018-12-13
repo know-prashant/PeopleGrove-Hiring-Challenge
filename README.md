@@ -1,3 +1,54 @@
+## Run Instruction
+Clone the repo in your local directory
+
+Move to cloned repo and run `yarn install` make sure you have `yarn` already installed. Instructions to install `yarn` could be found [here](https://yarnpkg.com/en/docs/install).
+
+To start app, `cd` into the project root directory and run `yarn start`.
+
+## API
+ Your api app will be running on `http://localhost:1337`. Please do check for it. 
+ 
+ For Signup
+ `'POST /api/signup'`
+ @params  `name : string`, `email : string`, `password : string`
+ 
+ For Login
+ `'POST /api/login'`
+ @params `email : string`, `password : string`
+
+ To update the profile
+ `'PUT /api/update/:id'`
+ @params  `username : string`, `timezone : string`, `id : number` where id is user's id
+
+ To get all users
+ `'GET /api/users'`
+ 
+ To get particular user
+ `'GET /api/user/:username'`
+ @params  `username : string`
+ 
+ To reset password
+ `'PUT /api/reset'`
+ @params  `email : string`, `password : string`
+ 
+ To create appointment
+ `'POST /api/appointment/create'`
+ @params  `date : string`, `time : string`, `bookedTo : string`
+ @optional `bookedBy : string` `default: Anonymous`
+  
+ To get all appointments of particular user
+ `'GET /api/appointments/:username'`
+ @params  `username : string`
+ 
+ To remove appointment
+ `'Delete /api/appointments/remove/:id'`
+ @params  `id : number` where id is appointment's id.
+ 
+ 
+## Flow
+Please explore as you feel.
+
+
 # Peoplegrove Full-Stack Engineer Hiring Challenge
 
 
