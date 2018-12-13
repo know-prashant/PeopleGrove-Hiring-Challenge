@@ -1,0 +1,5 @@
+{"$$indexCreated":{"fieldName":"id","unique":true,"sparse":false}}
+{"$$indexCreated":{"fieldName":"username","unique":true,"sparse":false}}
+{"$$indexCreated":{"fieldName":"email","unique":true,"sparse":false}}
+{"createdAt":1544676940159,"updatedAt":1544676946142,"id":1,"email":"prashantydv25@gmail.com","password":"$2a$10$prgDzPVfj1R3MDJN2QunBeD2hsaKqeV2z1BtJDDWVv.qh7aewsQFi","timezone":"Asia/Aden","username":"Golu Yadav","full_name":"Golu Yadav","_id":1}
+{"createdAt":1544676962241,"updatedAt":1544676973859,"id":2,"email":"prashantydv235@gmail.com","password":"$2a$10$eWkkvooBVC9EnQeIk3DgCOrbeRKUPVWAvEOET/z2nNpWsZ4UoHj4m","timezone":"Asia/Bahrain","username":"Prashant Yadav","full_name":"Prashant Yadav","_id":2}

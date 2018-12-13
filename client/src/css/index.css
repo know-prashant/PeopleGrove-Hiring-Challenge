@@ -1,0 +1,15 @@
+*{
+  box-sizing: border-box;
+}
+
+body, html{
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+  color: #787993;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1{
+  color: #25265e;
+}

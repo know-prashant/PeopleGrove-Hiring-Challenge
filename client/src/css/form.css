@@ -1,0 +1,96 @@
+.form-wrapper{
+    padding: .5em 2em;
+    margin: 0 auto;
+    max-width: 400px;
+}
+
+.form-area{
+  margin-top: 5em;
+}
+
+button{
+  border: none;
+  padding: 15px 25px;
+  border-radius: 25px;
+  color: #fff;
+  font-weight: 400;
+  background: #e3d9fc;
+  color: #25265e;
+  outline: none !important;
+  cursor: pointer;
+  font-size: 1.2em;
+}
+
+.buttons > a{
+  display: inline-block;
+  float: right;
+  text-decoration: none;
+  padding-bottom: 5px;
+  border-bottom: 2px solid #cac2de;
+  text-transform: capitalize;
+  color: #7540ee;
+  font-size: 1.2em;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+select.form-control{
+  width: 100%;
+  padding: 15px 2px;
+  font-size: 1.1em;
+  color: #757575;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid;
+}
+
+input.form-control {
+  padding: 7px 1px;
+  border: none;
+  border-bottom: 1px solid;
+  outline: none !important;
+  font-size: 1.2em;
+  color: #787993;
+  width: 100%;
+}
+
+.required{
+  font-size: 1.2em;
+  color: red;
+  line-height: .5;
+  float: right;
+  position: relative;
+  top: 10px;
+  right: -10px;
+}
+
+.required-message{
+  color: red;
+  display: inline-block;
+  margin-top: 8px;
+}
+
+.form-group{
+  margin-bottom: 3em;
+}
+
+.account-create{
+  text-align: center;
+  font-size: 1.2em;
+  margin-top: 5em;
+  text-transform: capitalize;
+}
+
+.account-create > a{
+  color: #EF6C00;
+  text-decoration: none;
+}
+
+.signup .account-create > a{
+  color: #7540ee;
+}
+
+.signup button{
+  color: #EF6C00;
+  background:#ffe0b2;
+}

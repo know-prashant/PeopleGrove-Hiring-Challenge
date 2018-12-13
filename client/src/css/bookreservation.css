@@ -1,0 +1,74 @@
+.time-view{
+  text-align: center;
+  margin-bottom: 4em;
+}
+
+.time-slot.active{
+  background: #c1a6ff;
+}
+
+.time-slot {
+    display: inline-block;
+    width: 46%;
+    border: 1px solid #000;
+    margin: 10px;
+    padding: 15px;
+    text-align: center;
+    color: #000;
+    cursor: pointer;
+    -webkit-transition: all .2s ease;
+    -moz-transition: all .2s ease;
+    -o-transition: all .2s ease;
+    transition: all .2s ease;
+}
+
+.time-slot.disabled{
+  background: #263238;
+  cursor: not-allowed;
+  color: #fff;
+  opacity: .2;
+}
+
+.date-view{
+  margin: 20px;
+  text-align: center;
+}
+
+.date-view input{
+  border: none;
+  border-bottom: 2px solid #adb5b5;
+  padding: 5px 0;
+  font-size: 25px;
+  text-align: center;
+  outline: none !important;
+}
+
+.handle-booking{
+  font-size: 2em;
+  position: fixed;
+  bottom: 0;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+  left: 0;
+  background: #FF8A65;
+  color: #fff;
+  cursor: pointer;
+}
+
+.user-info{
+  margin: 3em 1em 1em 0;
+  text-align: center;
+}
+
+.intro{
+  display: block;
+}
+
+.user-name{
+  font-size: 2em;
+  padding-right: 10px;
+  color: #37474F;
+  padding-top: 10px;
+  display: inline-block;
+}

@@ -1,0 +1,49 @@
+.user-info.profile{
+  text-align: left;
+}
+
+.user-info.profile > .user-name{
+  display: block;
+  margin-bottom: 10px;
+}
+
+.user-info.profile > .update{
+  padding-left: 10px;
+  color: #03A9F4;
+  cursor: pointer;
+}
+
+.wrapper{
+  max-width: 400px;
+  padding: .5em 1em;
+  margin: 0 auto;
+}
+
+ul{
+  padding: 0;
+  list-style: none;
+  margin-bottom: 35px;
+}
+
+li{
+  margin-bottom: 15px;
+}
+
+.time {
+  display: inline-block;
+  color: #ababab;
+  padding-right: 20px;
+}
+
+.delete {
+  color: red;
+  float: right;
+  cursor: pointer;
+}
+
+.date {
+  display: block;
+  font-size: 1.5em;
+  margin-bottom: 15px;
+  color: #283593;
+}

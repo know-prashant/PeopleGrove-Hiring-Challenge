@@ -1,0 +1,5 @@
+{"$$indexCreated":{"fieldName":"id","unique":true,"sparse":false}}
+{"createdAt":1544676985000,"updatedAt":1544676985000,"id":2,"date":"27-Dec-2018","name":"Prashant Yadav","time":"05:00","appointee":"Golu Yadav","_id":2}
+{"createdAt":1544677028148,"updatedAt":1544677028148,"id":3,"date":"13-Dec-2018","name":"Anonymous User","time":"03:00","appointee":"Prashant Yadav","_id":3}
+{"createdAt":1544677030033,"updatedAt":1544677030033,"id":4,"date":"13-Dec-2018","name":"Anonymous User","time":"12:00","appointee":"Prashant Yadav","_id":4}
+{"createdAt":1544677033162,"updatedAt":1544677033162,"id":5,"date":"14-Dec-2018","name":"Anonymous User","time":"13:00","appointee":"Prashant Yadav","_id":5}
