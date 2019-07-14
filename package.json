@@ -8,7 +8,7 @@
     "async": "2.0.1",
     "grunt": "1.0.1",
     "hashids": "^1.1.4",
-    "lodash": "3.10.1",
+    "lodash": "4.17.13",
     "moment-timezone": "^0.5.23",
     "sails": "^1.0.0-44",
     "sails-disk": "1.0.0-12",
