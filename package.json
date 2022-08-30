@@ -9,7 +9,7 @@
     "grunt": "1.0.1",
     "hashids": "^1.1.4",
     "lodash": "3.10.1",
-    "moment-timezone": "^0.5.23",
+    "moment-timezone": "^0.5.35",
     "sails": "^1.0.0-44",
     "sails-disk": "1.0.0-12",
     "sails-hook-grunt": "^2.2.1",
